@@ -12,8 +12,9 @@
   
   <div id="app">
     <div class="mf-container text-center mt-5">
-      <img v-bind:src="miaClasseImmagine" alt="world-img">
+      <img v-bind:src="srcImmagine" alt="world-img">
       <h1 class="mt-2">{{saluto}}</h1>
+      <div v-bind:class="classeImmagine"></div>
     </div>
   </div>
 
