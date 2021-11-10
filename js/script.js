@@ -6,10 +6,7 @@ const app = new Vue({
   el: '#app',
   // in data inserisco tutte le variabili e saranno delle proprietà di data
   data: {
-    saluto: 'Hello World !'
+    saluto: 'Hello World !',
+    miaClasseImmagine: 'https://cdn.pixabay.com/photo/2016/04/01/22/32/world-1301744_1280.png'
   }
-
-
-
-
 })

@@ -1,3 +1,7 @@
-h1 {
-  height: 100vh;
+.mf-container {
+  height: 800px;
+}
+
+.mf-container img {
+  height: 100%;
 }
